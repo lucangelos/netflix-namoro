@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    
+        <title>Feliz dia dos namorados</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="img/NetflixLogo.png" alt="Logo da Netflix" width="100px"
+            height="70px">
+        </div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Minha lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo">Lucas e Bruna</p>
+            <p class="detalhes"> 
+                <span>18 DE JANEIRO, 1 TEMPORADA </span>
+                <span class="stars">
+                    <i class="fa-solid fa-star" style="color: rgb(208, 8, 8);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(208, 8, 8);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(208, 8, 8);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(208, 8, 8);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(208, 8, 8);"></i>
+                </span>
+
+                <p class="descricao">
+                    Essa série trata-se de um garoto e uma garota que se conheceram no ensino médio como amigos, porém, conforme o tempo foi passando eles foram se apaixoando e criando uma paixão intensa um pelo o outro.
+                    Após muito tempo apaixonados, o garoto decide pedir ela em namoro, e a partir dali, criou-se uma linda história de amor que apenas está começando.
+                </p>
+                <div class="botoes">
+                    <a href="video.html">
+                        <button><i class="fa-solid fa-play"></i> Continuar</button>
+                    </a>
+                    <button><i class="fa-solid fa-star"></i> Favoritos</button>
+                </div>
+            </p>
+        </div>
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos Melhores Momentos</h2>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/BeijoBochecha.jpeg"></div>
+              <div class="swiper-slide"><img src="img/Buque.jpeg"></div>
+              <div class="swiper-slide"><img src="img/BeijoFormatura.jpeg"></div>
+              <div class="swiper-slide"><img src="img/MeuAniversario.jpeg"></div>
+              <div class="swiper-slide"><img src="img/SalaDeCinema.jpeg"></div>
+              <div class="swiper-slide"><img src="img/Jeronimo.jpeg"></div>
+              <div class="swiper-slide"><img src="img/EBF.jpeg"></div>
+              <div class="swiper-slide"><img src="img/EnsaioFormatura.jpeg"></div>
+              <div class="swiper-slide"><img src="img/Filtro.jpeg"></div>
+              <div class="swiper-slide"><img src="img/MeuAniversario.jpeg"></div>
+              <div class="swiper-slide"><img src="img/Pedido.jpeg"></div>
+              <div class="swiper-slide"><img src="img/Lindona.jpeg"></div>
+            </div>
+          </div>
+    </section>
+
+    <footer>
+        2026 - Lucas 
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay:4000, 
+                disableOnInteraction: false,
+            },
+
+            slidesPerView: 2, 
+            spaceBetween: 10,
+            loop:true,
+            breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween:15,
+                },
+
+                900: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween:40,
+                }
+            }
+        });
+    </script>
+</body>
+</html>
