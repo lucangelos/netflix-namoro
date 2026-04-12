@@ -182,6 +182,10 @@ footer {
         height: 440px;
     }
 
+    .aparecer {
+        display: none;
+    }
+
 }
 
 .centro {
