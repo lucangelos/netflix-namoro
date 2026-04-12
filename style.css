@@ -177,6 +177,11 @@ footer {
         font-size: 16px;
     }
 
+    .videos {
+        width: 200px;
+        height: 440px;
+    }
+
 }
 
 .centro {
@@ -185,6 +190,11 @@ footer {
     align-items: center;      /* centraliza horizontalmente */
     justify-content: center;  /* centraliza verticalmente */
     height: 100vh;            /* ocupa 100% da altura da tela */
+}
+
+.videos {
+    width: 380px;
+    height: 640px;
 }
 
 .voltar {
